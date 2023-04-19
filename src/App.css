@@ -45,6 +45,14 @@
   --bs-gutter-x: 0rem;
 }
 
+.Pict{
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+  align-content: space-between;
+  justify-content: center;
+}
+
 a{
   text-decoration: none;
   color: white;
@@ -54,3 +62,43 @@ a:hover{
   text-decoration: none;
   color: white;
 }
+
+
+#div1{
+  font-size: 30px;
+  width: 30%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#divBeach1{
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+#divBeach2{
+  display: flex;
+  align-items: right;
+  justify-content: right;
+}
+
+#divImg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#div2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#div5{
+  margin: 40px;
+  font-size: 40px;
+  width: 30%;
+  margin-right: auto;
+  margin-left: auto;
+  color: blueviolet;
+}
+

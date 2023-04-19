@@ -15,13 +15,13 @@ import {
 const colorOptions={color:'purple'}
 const centerPolygon=[
     [
-        [55.790823, 37.539031],
-        [55.688479, 37.521845],
-        [55.690906, 37.775819],
-        [55.813141, 37.760065]
+        [59.941680, 30.195476],
+        [59.910963, 30.334072],
+        [59.948982, 30.410482],
+        [59.987122, 30.310256]
     ]
 ]
-const center=[55.769667, 37.627671]
+const center=[59.950309, 30.313233]
 
 const Form = () => {
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
@@ -154,7 +154,7 @@ const Form = () => {
 
            <Marker position={center}>
             <Popup>
-                Мы находимся тут 
+                Заячий остров
             </Popup>
             <Tooltip>При наведении</Tooltip>
            </Marker>

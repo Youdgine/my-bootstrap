@@ -2,15 +2,15 @@ import { Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import "./App.css"
+import "./App.css";
 import { useState,useEffect} from 'react';
 import axios from 'axios';
 import Home from './components/Home';
-import {Route, Routes, BrowserRouter as Router} from 'react-router-dom'
+import {Route, Routes, BrowserRouter as Router} from 'react-router-dom';
 import React from 'react';
-import Favorites from './components/favorites/Favorites'
-import Basket from './components/basket/Basket'
-import Form from './components/Form'
+import Favorites from './components/favorites/Favorites';
+import Basket from './components/basket/Basket';
+import Form from './components/Form';
 import Description from './components/Description';
 
 export const AppContext = React.createContext({})
@@ -37,7 +37,7 @@ useEffect (()=>{
 
 
 const deleteItems=(id)=>{
-  axios.delete(`https://637f91ca2f8f56e28e904e7d.mockapi.io/cart/${id}`)
+  axios.delete(`https://643fe957b9e6d064be0252c7.mockapi.io/cart/${id}`)
   setOverlayItems((objDelete)=> objDelete.filter(item=> item.id !==id))
 }
 
